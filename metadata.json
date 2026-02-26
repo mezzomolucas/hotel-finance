@@ -1,0 +1,5 @@
+{
+  "name": "Hotel Finance Control",
+  "description": "A comprehensive financial management dashboard for hotels, tracking incomes, expenses, receivables, and monthly performance.",
+  "requestFramePermissions": []
+}
