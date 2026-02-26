@@ -1,20 +1,37 @@
 <div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+  <img src="https://raw.githubusercontent.com/mezzomolucas/mezzomolucas/main/Aesthetic%20Twitter%20Header.png" width="100%" />
 
-# Run and deploy your AI Studio app
+  # 🏨 Hotel Finance
 
-This contains everything you need to run your app locally.
+  **Sistema de gestão hoteleira focado em controle financeiro e operacional.**
 
-View your app in AI Studio: https://ai.studio/apps/10822e86-a300-49c3-b2a3-ab12c8213aa0
+  ---
 
-## Run Locally
+  ### 🎯 O Problema
+  O **Hengu Hotel** (empresa familiar) necessitava de uma solução para centralizar a gestão de reservas e o controle financeiro, substituindo processos manuais por uma interface digital ágil e segura.
 
-**Prerequisites:**  Node.js
+  ### 🚀 A Solução
+  Desenvolvi este sistema Full Stack para automatizar o fluxo de caixa, gerenciar entradas/saídas de hóspedes e garantir a persistência dos dados financeiros em tempo real.
 
+  [Link para o Projeto](#) </div>
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+---
+
+### 🛠️ Tecnologias Utilizadas
+* **Frontend:** React.js com TypeScript e Tailwind CSS.
+* **Backend & Database:** PostgreSQL gerenciado via Supabase.
+* **Segurança:** Autenticação e Row Level Security (RLS) para proteção de dados.
+* **Infraestrutura:** Docker para padronização do ambiente.
+
+### 📋 Funcionalidades Atuais
+- [x] Painel de controle (Dashboard) com métricas financeiras.
+- [x] Cadastro e listagem de reservas.
+- [x] Gestão de receitas e despesas.
+- [x] Sistema de login seguro para administradores.
+
+---
+
+### 📂 Estrutura de Arquivos
+* `src/pages`: Interfaces principais (Dashboard, Incomes, Expenses).
+* `src/context`: Gerenciamento de estado global (Autenticação e Finanças).
+* `supabase_schema.sql`: Estrutura do banco
