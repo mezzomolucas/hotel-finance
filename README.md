@@ -11,31 +11,23 @@
   O **Hengu Hotel** enfrentava dificuldades na organização manual das finanças. Havia a necessidade de uma ferramenta que centralizasse o registro de entradas e saídas, permitindo uma visão clara da saúde financeira do negócio.
 
   ### 🚀 A Solução
-  Desenvolvi este sistema para permitir o controle rigoroso de pagamentos recebidos e contas pagas (Pix, dinheiro, etc.). A aplicação oferece uma interface intuitiva para gerenciar o dia a dia financeiro e planejar recebimentos futuros.
+  Desenvolvi este sistema para permitir o controle rigoroso de pagamentos recebidos e contas pagas (Pix, dinheiro, etc.). A aplicação oferece uma interface intuitiva para gerenciar o dia a dia financeiro e planejar recebimentos futuros através de uma aba dedicada a agendamentos.
 
 </div>
 
 ---
 
 ### 📋 Funcionalidades Principais
-* **Fluxo de Caixa:** Registro de entradas (pagamentos recebidos) e saídas (contas pagas).
-* **Gráficos Dinâmicos:** Visualização do fluxo de caixa para análise rápida de saldo.
-* **Categorização de Gastos:** Organização de despesas por categorias específicas para melhor controle.
-* **Contas a Receber:** Aba dedicada ao agendamento e acompanhamento de pagamentos futuros.
+* **Fluxo de Caixa:** Registro detalhado de entradas (pagamentos de hóspedes) e saídas (contas do hotel).
+* **Gestão de Recebíveis:** Controle de pagamentos agendados e comissões de plataformas (OTAs), com conversão automática para entrada ao confirmar o recebimento.
+* **Dashboard de Métricas:** Gráficos dinâmicos para análise de saldo e saúde financeira em tempo real.
+* **Categorização e Alertas:** Organização de despesas por categorias e sistema de alertas para contas vencendo no dia ou em atraso.
 
 ### 🛠️ Tecnologias Utilizadas
-* **Frontend:** React.js, TypeScript e Tailwind CSS.
-* **Backend & Database:** PostgreSQL via Supabase.
-* **Segurança:** Autenticação de usuário e políticas de proteção de dados (RLS).
-* **Infraestrutura:** Docker para padronização do ambiente de desenvolvimento.
-
----
-
-### 📂 Estrutura do Projeto
-* `src/pages/Incomes.tsx`: Registro de entradas e pagamentos recebidos.
-* `src/pages/Expenses.tsx`: Controle de saídas e categorias de gastos.
-* `src/pages/Receivables.tsx`: Gestão de pagamentos agendados (A receber).
-* `src/pages/Dashboard.tsx`: Visão geral com gráficos de fluxo de caixa.
+* **Frontend:** React.js (v18.3) com TypeScript para maior segurança no código.
+* **Estilização:** Tailwind CSS para uma interface moderna e responsiva.
+* **Backend & Database:** PostgreSQL gerenciado via Supabase, garantindo persistência e escalabilidade.
+* **Visualização de Dados:** Recharts para a geração dos gráficos de fluxo de caixa.
 
 ---
 
